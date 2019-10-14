@@ -1,0 +1,4 @@
+Dataset\CSE20\processed\B160382CS_Varshini\2.png 966 1885 1570 2672
+Dataset\CSE20\processed\B160382CS_Varshini\3.png 1069 1436 1989 2656
+Dataset\CSE20\processed\B160382CS_Varshini\1.png 533 731 1746 2235
+Dataset\CSE20\processed\B160382CS_Varshini\4.png 204 441 337 608

@@ -1,0 +1,5 @@
+Dataset\CSE20\processed\Daisey Ridley\5.png 99 0 189 112
+Dataset\CSE20\processed\Daisey Ridley\2.png 113 12 205 130
+Dataset\CSE20\processed\Daisey Ridley\4.png 83 0 191 129
+Dataset\CSE20\processed\Daisey Ridley\3.png 82 18 186 146
+Dataset\CSE20\processed\Daisey Ridley\1.png 15 13 155 181

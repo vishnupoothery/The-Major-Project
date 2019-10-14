@@ -3,6 +3,7 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
+import imageio
 import argparse
 import facenet
 import os
@@ -61,6 +62,11 @@ def main():
 
             while (cap.isOpened()):
                 ret, frame = cap.read()
+
+#                print(type(frame))
+#                print(frame.shape)
+#                imageio.imwrite("test.jpg",frame)
+
 
                 bounding_boxes, _ = align.detect_face.detect_face(frame, MINSIZE, pnet, rnet, onet, THRESHOLD, FACTOR)
 
