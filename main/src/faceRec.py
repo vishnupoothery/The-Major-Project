@@ -5,6 +5,7 @@ from __future__ import print_function
 import tensorflow as tf
 import argparse
 import facenet
+import imageio
 import os
 import sys
 import math
@@ -57,10 +58,72 @@ def main():
             people_detected = set()
             person_detected = collections.Counter()
 
-            cap = cv2.VideoCapture(VIDEO_PATH)
+            # cap = cv2.VideoCapture(VIDEO_PATH)
+            #
+            # while (cap.isOpened()):
+            #     ret, frame = cap.read()
+            #
+            #     bounding_boxes, _ = align.detect_face.detect_face(frame, MINSIZE, pnet, rnet, onet, THRESHOLD, FACTOR)
+            #
+            #     faces_found = bounding_boxes.shape[0]
+            #     try:
+            #         if faces_found > 0:
+            #             det = bounding_boxes[:, 0:4]
+            #             bb = np.zeros((faces_found, 4), dtype=np.int32)
+            #             for i in range(faces_found):
+            #                 bb[i][0] = det[i][0]
+            #                 bb[i][1] = det[i][1]
+            #                 bb[i][2] = det[i][2]
+            #                 bb[i][3] = det[i][3]
+            #
+            #                 cropped = frame[bb[i][1]:bb[i][3], bb[i][0]:bb[i][2], :]
+            #                 scaled = cv2.resize(cropped, (INPUT_IMAGE_SIZE, INPUT_IMAGE_SIZE),
+            #                                     interpolation=cv2.INTER_CUBIC)
+            #                 scaled = facenet.prewhiten(scaled)
+            #                 scaled_reshape = scaled.reshape(-1, INPUT_IMAGE_SIZE, INPUT_IMAGE_SIZE, 3)
+            #                 feed_dict = {images_placeholder: scaled_reshape, phase_train_placeholder: False}
+            #                 emb_array = sess.run(embeddings, feed_dict=feed_dict)
+            #                 predictions = model.predict_proba(emb_array)
+            #                 best_class_indices = np.argmax(predictions, axis=1)
+            #                 best_class_probabilities = predictions[
+            #                     np.arange(len(best_class_indices)), best_class_indices]
+            #                 best_name = class_names[best_class_indices[0]]
+            #                 print("Name: {}, Probability: {}".format(best_name, best_class_probabilities))
+            #
+            #                 cv2.rectangle(frame, (bb[i][0], bb[i][1]), (bb[i][2], bb[i][3]), (0, 255, 0), 2)
+            #                 text_x = bb[i][0]
+            #                 text_y = bb[i][3] + 20
+            #
+            #                 if best_class_probabilities > 0.08:
+            #                     name = class_names[best_class_indices[0]]
+            #                 else:
+            #                     name = "Unknown"
+            #                 cv2.putText(frame, name, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
+            #                             1, (255, 255, 255), thickness=1, lineType=2)
+            #                 cv2.putText(frame, str(round(best_class_probabilities[0], 3)), (text_x, text_y + 17),
+            #                             cv2.FONT_HERSHEY_COMPLEX_SMALL,
+            #                             1, (255, 255, 255), thickness=1, lineType=2)
+            #                 person_detected[best_name] += 1
+            #     except:
+            #         pass
+            #
+            #     cv2.imshow('Face Recognition', frame)
+            #     if cv2.waitKey(1) & 0xFF == ord('q'):
+            #         break
+            #
+            # cap.release()
 
-            while (cap.isOpened()):
-                ret, frame = cap.read()
+            # For testing an image:
+
+            ctr = 1
+            facelist = []
+            while (ctr <= 10):
+                ctr = ctr + 1
+                facelist = []
+                frame = imageio.imread("TestPics/23.jpeg")
+                # print(type(frame))
+                # print(frame.shape)
+                #break
 
                 bounding_boxes, _ = align.detect_face.detect_face(frame, MINSIZE, pnet, rnet, onet, THRESHOLD, FACTOR)
 
@@ -93,13 +156,16 @@ def main():
                             text_x = bb[i][0]
                             text_y = bb[i][3] + 20
 
-                            if best_class_probabilities > 0.15:
+                            if best_class_probabilities > 0.08:  # decreased from 0.15
                                 name = class_names[best_class_indices[0]]
+                                facelist.append(name)
+                                cv2.putText(frame, name[10:], (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
+                                            1, (255, 255, 255), thickness=1, lineType=2)
                             else:
                                 name = "Unknown"
-                            # cv2.putText : used to draw a text string on any image.
-                            cv2.putText(frame, name, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
+                                cv2.putText(frame, name, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                                         1, (255, 255, 255), thickness=1, lineType=2)
+
                             cv2.putText(frame, str(round(best_class_probabilities[0], 3)), (text_x, text_y + 17),
                                         cv2.FONT_HERSHEY_COMPLEX_SMALL,
                                         1, (255, 255, 255), thickness=1, lineType=2)
@@ -111,7 +177,8 @@ def main():
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     break
 
-            cap.release()
+            # cap.release()
+            print(facelist)
             cv2.destroyAllWindows()
 
 
