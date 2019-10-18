@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4434f496-4811-4336-8b6d-5f7fd4e38b6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/The Major Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/Commands" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160445CS_Sumalatha/B160445CS_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_92450.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160445CS_Sumalatha/B160445CS_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160116CS_Aparna/B160116CS_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160116CS_Aparna/B160116CS_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160116CS_Aparna/B160116CS_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160116CS_Aparna/B160116CS_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160116CS_Aparna/B160116CS_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160116CS_Aparna/B160116CS_3.png" afterDir="false" />
@@ -33,14 +23,15 @@
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160270CS_Lakshmi/B160270CS_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160270CS_Lakshmi/B160270CS_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160270CS_Lakshmi/B160270CS_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160270CS_Lakshmi/B160270CS_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160270CS_Lakshmi/B160270CS_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160270CS_Lakshmi/B160270CS_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160320ME_Shebin/B160320ME_3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160408CS_Ameen/B160408CS_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160408CS_Ameen/B160408CS_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160408CS_Ameen/B160408CS_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160408CS_Ameen/B160408CS_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160408CS_Ameen/B160408CS_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160408CS_Ameen/B160408CS_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160445CS_Sumalatha/B160445CS_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160445CS_Sumalatha/B160445CS_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160445CS_Sumalatha/B160445CS_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160445CS_Sumalatha/B160445CS_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160445CS_Sumalatha/B160445CS_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160445CS_Sumalatha/B160445CS_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160471CS_Dheeraj/B160471CS_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160471CS_Dheeraj/B160471CS_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160688CS_Vishnu/B160688CS_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160688CS_Vishnu/B160688CS_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160688CS_Vishnu/B160688CS_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160688CS_Vishnu/B160688CS_2.png" afterDir="false" />
@@ -51,23 +42,12 @@
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160873CS_Naina/B160873CS_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160873CS_Naina/B160873CS_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160873CS_Naina/B160873CS_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160873CS_Naina/B160873CS_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160873CS_Naina/B160873CS_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160873CS_Naina/B160873CS_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_09361.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_19737.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_20330.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_28104.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_30925.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_38733.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_40979.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_50376.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_51760.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_78500.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_80845.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_95936.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_92450.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/revision_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/revision_info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160116CS_Aparna/B160116CS_1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160116CS_Aparna/B160116CS_1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160320ME_Shebin/B160320ME_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160320ME_Shebin/B160320ME_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160320ME_Shebin/B160320ME_3.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Models/CSE20/CSE20.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/main/Models/CSE20/CSE20.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/main/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/faceRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/faceRec.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,12 +57,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/src/faceRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="126">
+              <caret line="158" column="62" selection-start-line="158" selection-start-column="62" selection-end-line="158" selection-end-column="62" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -90,7 +70,39 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/align/detect_face.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11385">
+              <caret line="768" selection-start-line="768" selection-end-line="768" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Facenet/lib/python3.5/site-packages/tensorflow/python/client/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19575">
+              <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/Commands">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>facelist</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +112,7 @@
       <list>
         <option value="$PROJECT_DIR$/main/requirements.txt" />
         <option value="$PROJECT_DIR$/main/README.md" />
+        <option value="$PROJECT_DIR$/main/Commands" />
         <option value="$PROJECT_DIR$/main/src/faceRec.py" />
       </list>
     </option>
@@ -111,10 +124,39 @@
     <option name="height" value="672" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="The Major Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="The Major Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="The Major Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="The Major Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="align" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,6 +197,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="faceRec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="The Major Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/src/faceRec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.faceRec" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,22 +240,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32868218" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -210,10 +278,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/align/detect_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11385">
+          <caret line="768" selection-start-line="768" selection-end-line="768" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Facenet/lib/python3.5/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19575">
+          <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/Commands">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/faceRec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="34" />
+        <state relative-caret-position="126">
+          <caret line="158" column="62" selection-start-line="158" selection-start-column="62" selection-end-line="158" selection-end-column="62" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
