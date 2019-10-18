@@ -29,7 +29,7 @@ def main():
     INPUT_IMAGE_SIZE = 160
     CLASSIFIER_PATH = 'Models/CSE20/CSE20.pkl'
     VIDEO_PATH = args.path
-    FACENET_MODEL_PATH = 'Models/facenet/20180402-114759.pb'
+    FACENET_MODEL_PATH = 'Models/facenet/20180408-102900.pb'
 
     # Load The Custom Classifier
     with open(CLASSIFIER_PATH, 'rb') as file:

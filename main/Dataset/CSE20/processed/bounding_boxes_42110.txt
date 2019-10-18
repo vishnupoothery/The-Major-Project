@@ -1,0 +1,14 @@
+Dataset\CSE20\processed\B160382CS_Varshini\IMG_20190402_202351.png 334 401 711 854
+Dataset\CSE20\processed\Ajisha\IMG_0214.png 211 169 816 1018
+Dataset\CSE20\processed\Ajisha\_DSC8979.png 174 216 885 1115
+Dataset\CSE20\processed\Ajisha\IMG_1481.png 230 121 801 846
+Dataset\CSE20\processed\Ajisha\IMG_0353.png 366 171 867 812
+Dataset\CSE20\processed\Jyothsna\IMG_20190822_105900.png 1432 1041 1698 1361
+Dataset\CSE20\processed\Jyothsna\IMG_20190210_130328.png 670 1276 1138 1888
+Dataset\CSE20\processed\Jyothsna\IMG_20181013_192916.png 1298 848 1620 1258
+Dataset\CSE20\processed\Jyothsna\IMG_0166.png 1249 404 2342 1744
+Dataset\CSE20\processed\Amalu\Amalu (2).png 459 329 567 443
+Dataset\CSE20\processed\Amalu\Amalu (1).png 508 83 647 243
+Dataset\CSE20\processed\Amalu\Amalu (4).png 320 209 518 442
+Dataset\CSE20\processed\Amalu\Amalu (5).png 173 362 404 627
+Dataset\CSE20\processed\Amalu\Amalu (3).png 18 81 139 222

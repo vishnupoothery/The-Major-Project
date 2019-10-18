@@ -1,0 +1,4 @@
+Dataset\CSE20\processed\Anjitha\IMG_20190205_090434.png 262 185 521 542
+Dataset\CSE20\processed\Anjitha\IMG_20190206_144137.png 286 218 776 846
+Dataset\CSE20\processed\Anjitha\IMG_20190214_202745.png 144 184 672 850
+Dataset\CSE20\processed\Anjitha\IMG_20190904_151354.png 111 231 538 804

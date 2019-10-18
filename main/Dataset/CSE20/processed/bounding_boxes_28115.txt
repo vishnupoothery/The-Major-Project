@@ -1,0 +1,8 @@
+Dataset\CSE20\processed\Arjun\IMG_20180907_014135.png 237 341 864 1139
+Dataset\CSE20\processed\Arjun\IMG_20190204_144021.png 237 261 647 764
+Dataset\CSE20\processed\Arjun\IMG_9676.png 348 411 1163 1420
+Dataset\CSE20\processed\Arjun\IMG_9901.png 248 178 753 803
+Dataset\CSE20\processed\Farsana\IMG_0146.png 1034 492 2242 2078
+Dataset\CSE20\processed\Farsana\IMG_20180906_171854.png 328 142 1820 2249
+Dataset\CSE20\processed\Farsana\IMG_20181013_193528.png 263 229 768 883
+Dataset\CSE20\processed\Farsana\IMG_20190904_151413.png 244 193 770 874
