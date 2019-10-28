@@ -28,7 +28,8 @@ def main():
     IMAGE_SIZE = 182
     INPUT_IMAGE_SIZE = 160
     CLASSIFIER_PATH = 'Models/CSE20/CSE20.pkl'
-    VIDEO_PATH = args.path
+    #VIDEO_PATH = args.path
+    IMAGE_PATH = args.path
     FACENET_MODEL_PATH = 'Models/facenet/20180402-114759.pb'
 
     # Load The Custom Classifier
@@ -120,7 +121,7 @@ def main():
             while (ctr <= 10):
                 ctr = ctr + 1
                 facelist = []
-                frame = imageio.imread("TestPics/23.jpeg")
+                frame = imageio.imread(IMAGE_PATH)
                 # print(type(frame))
                 # print(frame.shape)
                 #break
