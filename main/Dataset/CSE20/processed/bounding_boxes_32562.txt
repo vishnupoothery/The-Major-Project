@@ -1,0 +1,3 @@
+./Dataset/CSE20/processed/B160270CS_Lakshmi/WhatsApp Image 2019-10-29 at 10.43.00 AM(1).png 138 218 389 543
+./Dataset/CSE20/processed/B160175CS_Sudhi/WhatsApp Image 2019-10-29 at 10.43.00 AM.png 81 287 417 676
+./Dataset/CSE20/processed/B160873CS_Naina/WhatsApp Image 2019-10-29 at 10.43.00 AM(2).png 124 393 325 646

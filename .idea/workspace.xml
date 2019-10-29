@@ -3,11 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="4434f496-4811-4336-8b6d-5f7fd4e38b6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Commands" beforeDir="false" afterPath="$PROJECT_DIR$/main/Commands" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_39881.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160356CS_Ajisha/IMG_0214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160356CS_Ajisha/IMG_0353.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160356CS_Ajisha/IMG_1481.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/B160356CS_Ajisha/_DSC8979.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/bounding_boxes_72007.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/processed/revision_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dataset/CSE20/processed/revision_info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160009CS_Mathew/WhatsApp Image 2019-10-25 at 9.17.50 PM(2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160024CS_Nikunj/WhatsApp Image 2019-10-25 at 9.17.50 PM(5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160040CS_Vineet/WhatsApp Image 2019-10-25 at 9.17.50 PM(1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160046CS_Thomas/WhatsApp Image 2019-10-25 at 8.57.16 PM(1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160046CS_Thomas/WhatsApp Image 2019-10-25 at 8.57.16 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160046CS_Thomas/WhatsApp Image 2019-10-25 at 9.17.50 PM(4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160356CS_Ajisha/IMG_0214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160356CS_Ajisha/IMG_0353.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160356CS_Ajisha/IMG_1481.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dataset/CSE20/raw/B160356CS_Ajisha/_DSC8979.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Models/CSE20/CSE20.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/main/Models/CSE20/CSE20.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/faceRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/faceRec.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/src/faceRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="123" column="49" selection-start-line="123" selection-start-column="49" selection-end-line="123" selection-end-column="49" />
+            <state relative-caret-position="306">
+              <caret line="159" column="62" selection-start-line="159" selection-start-column="62" selection-end-line="159" selection-end-column="62" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -38,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/Commands">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -62,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/main/requirements.txt" />
         <option value="$PROJECT_DIR$/main/README.md" />
-        <option value="$PROJECT_DIR$/main/src/faceRec.py" />
         <option value="$PROJECT_DIR$/main/Commands" />
+        <option value="$PROJECT_DIR$/main/src/faceRec.py" />
       </list>
     </option>
   </component>
@@ -78,6 +90,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="The Major Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The Major Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The Major Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The Major Project" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The Major Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The Major Project" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -102,28 +136,6 @@
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="align" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="The Major Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The Major Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The Major Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The Major Project" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The Major Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The Major Project" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,16 +247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/faceRec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="123" column="49" selection-start-line="123" selection-start-column="49" selection-end-line="123" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/align/detect_face.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11355">
@@ -254,8 +256,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/Commands">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/faceRec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="159" column="62" selection-start-line="159" selection-start-column="62" selection-end-line="159" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
