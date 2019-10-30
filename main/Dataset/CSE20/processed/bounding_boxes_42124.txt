@@ -1,0 +1,24 @@
+Dataset\CSE20\processed\B160040CS_Vineet\WhatsApp Image 2019-10-25 at 9.17.50 PM(1).png 86 202 347 533
+Dataset\CSE20\processed\B160328CS_Nikhil\5.png 238 239 501 585
+Dataset\CSE20\processed\B160328CS_Nikhil\6.png 323 285 551 584
+Dataset\CSE20\processed\B160009CS_Mathew\WhatsApp Image 2019-10-25 at 9.17.50 PM(2).png 151 173 411 503
+Dataset\CSE20\processed\B160175CS_Sudhi\WhatsApp Image 2019-10-25 at 8.48.33 PM.png 228 208 627 741
+Dataset\CSE20\processed\B160483CS_Visakh\WhatsApp Image 2019-10-25 at 9.17.51 PM(5).png 72 324 306 620
+Dataset\CSE20\processed\B160094CS_Nirmal\5.png 122 32 468 465
+Dataset\CSE20\processed\B160094CS_Nirmal\WhatsApp Image 2019-10-25 at 9.17.50 PM(3).png 129 297 413 640
+Dataset\CSE20\processed\B160373CS_Darshana\5.png 312 211 596 557
+Dataset\CSE20\processed\B160373CS_Darshana\WhatsApp Image 2019-10-25 at 9.20.49 PM.png 227 16 717 688
+Dataset\CSE20\processed\B160270CS_Lakshmi\WhatsApp Image 2019-10-25 at 9.17.51 PM(2).png 137 473 251 600
+Dataset\CSE20\processed\B160024CS_Nikunj\WhatsApp Image 2019-10-25 at 9.17.50 PM(5).png 82 255 323 542
+Dataset\CSE20\processed\B190383CS_Jishnu\WhatsApp Image 2019-10-25 at 9.17.51 PM(4).png 88 268 414 637
+Dataset\CSE20\processed\B160228CS_Vrindha\WhatsApp Image 2019-10-25 at 9.17.51 PM(3).png 89 336 279 575
+Dataset\CSE20\processed\B160046CS_Thomas\WhatsApp Image 2019-10-25 at 8.57.16 PM(1).png 327 191 668 626
+Dataset\CSE20\processed\B160046CS_Thomas\WhatsApp Image 2019-10-25 at 8.57.16 PM.png 282 200 648 670
+Dataset\CSE20\processed\B160046CS_Thomas\WhatsApp Image 2019-10-25 at 9.17.50 PM(4).png 114 209 397 571
+Dataset\CSE20\processed\B160116CS_Aparna\WhatsApp Image 2019-10-25 at 9.17.51 PM.png 150 355 381 641
+Dataset\CSE20\processed\B160230CS_Abhijith\WhatsApp Image 2019-10-25 at 8.57.17 PM(1).png 283 341 675 828
+Dataset\CSE20\processed\B160230CS_Abhijith\WhatsApp Image 2019-10-25 at 8.57.17 PM.png 198 140 450 437
+Dataset\CSE20\processed\B160118CS_Neeraja\WhatsApp Image 2019-10-25 at 9.17.51 PM(1).png 209 227 443 525
+Dataset\CSE20\processed\B160118CS_Neeraja\WhatsApp Image 2019-10-25 at 9.17.51 PM(6).png 223 209 360 372
+Dataset\CSE20\processed\B160118CS_Neeraja\WhatsApp Image 2019-10-25 at 9.17.51 PM(7).png 182 322 419 602
+Dataset\CSE20\processed\B160118CS_Neeraja\WhatsApp Image 2019-10-25 at 9.17.51 PM(8).png 210 193 377 414

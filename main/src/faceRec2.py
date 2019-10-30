@@ -2,11 +2,12 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-
 import math
+import tensorflow as tf
 import imageio
 import argparse
 import facenet
+import json
 import imageio
 import os
 import sys
@@ -17,8 +18,10 @@ import numpy as np
 import cv2
 import collections
 from sklearn.svm import SVC
-import tensorflow as tf
 
+#input format
+
+#python src\faceRec2.py --path ["TestPics\cs (1).jpg","TestPics\cs (2).jpg","TestPics\cs (3).jpg"]
 
 def main():
     parser = argparse.ArgumentParser()
@@ -31,8 +34,14 @@ def main():
     IMAGE_SIZE = 182
     INPUT_IMAGE_SIZE = 160
     CLASSIFIER_PATH = 'Models/CSE20/CSE20.pkl'
-    VIDEO_PATH = args.path
-    FACENET_MODEL_PATH = 'Models/facenet/20180408-102900.pb'
+    #VIDEO_PATH = args.path
+    IMAGE_PATH = args.path
+    FACENET_MODEL_PATH = 'Models/facenet/20180402-114759.pb'
+
+    IMAGE_PATH = IMAGE_PATH[1:-1].split(',')
+    print(IMAGE_PATH)
+    print(type(IMAGE_PATH[0]))
+    #return
 
     # Load The Custom Classifier
     with open(CLASSIFIER_PATH, 'rb') as file:
@@ -63,10 +72,17 @@ def main():
 
             ctr = 1
             facelist = []
-            while (ctr <= 10):
+            for IMG_ADDR in IMAGE_PATH:
                 ctr = ctr + 1
-                facelist = []
-                frame = imageio.imread("TestPics/23.jpeg")
+                #facelist = []
+                frame = imageio.imread(IMG_ADDR)
+                # print(type(frame))
+                # print(frame.shape)
+                # break
+
+#                print(type(frame))
+#                print(frame.shape)
+#                imageio.imwrite("test.jpg",frame)
 
                 bounding_boxes, _ = align.detect_face.detect_face(frame, MINSIZE, pnet, rnet, onet, THRESHOLD, FACTOR)
 
@@ -82,16 +98,14 @@ def main():
                             bb[i][3] = det[i][3]
 
                             cropped = frame[bb[i][1]:bb[i][3], bb[i][0]:bb[i][2], :]
-                            scaled = cv2.resize(cropped, (INPUT_IMAGE_SIZE, INPUT_IMAGE_SIZE),
-                                                interpolation=cv2.INTER_CUBIC)
+                            scaled = cv2.resize(cropped, (INPUT_IMAGE_SIZE, INPUT_IMAGE_SIZE),interpolation=cv2.INTER_CUBIC)
                             scaled = facenet.prewhiten(scaled)
                             scaled_reshape = scaled.reshape(-1, INPUT_IMAGE_SIZE, INPUT_IMAGE_SIZE, 3)
                             feed_dict = {images_placeholder: scaled_reshape, phase_train_placeholder: False}
                             emb_array = sess.run(embeddings, feed_dict=feed_dict)
                             predictions = model.predict_proba(emb_array)
                             best_class_indices = np.argmax(predictions, axis=1)
-                            best_class_probabilities = predictions[
-                                np.arange(len(best_class_indices)), best_class_indices]
+                            best_class_probabilities = predictions[np.arange(len(best_class_indices)), best_class_indices]
                             best_name = class_names[best_class_indices[0]]
                             print("Name: {}, Probability: {}".format(best_name, best_class_probabilities))
 
@@ -101,17 +115,18 @@ def main():
 
                             if best_class_probabilities > 0.08:  # decreased from 0.15
                                 name = class_names[best_class_indices[0]]
-                                facelist.append(name)
-                                cv2.putText(frame, name[10:], (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
-                                            1, (255, 255, 255), thickness=1, lineType=2)
+                                entry = {
+                                    'name' : name[10:],
+                                    'rollno' : name[:10],
+                                    'prob' : best_class_probabilities[0]
+                                }
+                                facelist.append(entry)
+                                cv2.putText(frame, name[10:], (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,1, (255, 255, 255), thickness=1, lineType=2)
                             else:
                                 name = "Unknown"
-                                cv2.putText(frame, name, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,
-                                        1, (255, 255, 255), thickness=1, lineType=2)
+                                cv2.putText(frame, name, (text_x, text_y), cv2.FONT_HERSHEY_COMPLEX_SMALL,1, (255, 255, 255), thickness=1, lineType=2)
 
-                            cv2.putText(frame, str(round(best_class_probabilities[0], 3)), (text_x, text_y + 17),
-                                        cv2.FONT_HERSHEY_COMPLEX_SMALL,
-                                        1, (255, 255, 255), thickness=1, lineType=2)
+                            cv2.putText(frame, str(round(best_class_probabilities[0], 3)), (text_x, text_y + 17),cv2.FONT_HERSHEY_COMPLEX_SMALL,1, (255, 255, 255), thickness=1, lineType=2)
                             person_detected[best_name] += 1
                 except:
                     pass
@@ -121,7 +136,7 @@ def main():
                     break
 
             # cap.release()
-            print(facelist)
+            print(json.dumps(facelist))
             cv2.destroyAllWindows()
 
 
